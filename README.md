@@ -1,1 +1,1 @@
-# micro-frontends
+# micro-frontends with single-spa
