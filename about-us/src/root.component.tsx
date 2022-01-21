@@ -7,7 +7,7 @@ import {
   Collapse,
   Typography,
 } from "@mui/material";
-import "./root-component.css";
+import "./about-us-component.css";
 import { aboutUsProps } from "../interfaces/aboutUsInterface";
 import { aboutUsMock } from "../mock/aboutUsMock/aboutUsMock";
 

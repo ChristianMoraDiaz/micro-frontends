@@ -1,0 +1,17 @@
+.Container {
+  padding-top: 5%;
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
+  align-content: center;
+}
+
+.FormField {
+  margin-top: 25px;
+}
+
+.CreateButton {
+  margin: 50px 0px 40px 0px;
+  background-color: black;
+  border: 0 ;
+}

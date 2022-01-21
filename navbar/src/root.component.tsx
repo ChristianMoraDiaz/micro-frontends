@@ -7,11 +7,11 @@ export default function Root() {
       <a href="/" className="link">
         Home
       </a>
-      <a href="/faq" className="link">
-        FAQ
-      </a>
       <a href="/about-us" className="link">
         About us
+      </a>
+      <a href="/faq" className="link">
+        FAQ
       </a>
       <a href="/sign-in" className="link">
         Sign In
