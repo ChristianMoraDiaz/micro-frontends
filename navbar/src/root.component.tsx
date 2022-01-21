@@ -1,7 +1,7 @@
 import React from "react";
 import "./root.component.css";
 
-export default function Root() {
+export default function Root(): JSX.Element {
   return (
     <nav className="nav">
       <a href="/" className="link">

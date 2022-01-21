@@ -5,7 +5,7 @@ import * as Yup from "yup";
 import "./authentication-component.css";
 import { useState } from "react";
 
-export default function OrderCreation() {
+export default function OrderCreation(): JSX.Element {
   const [emailError, setEmailError] = useState("");
   const [passwordError, setPasswordError] = useState("");
   const handleSubmit = async (values: loginProps) => {
