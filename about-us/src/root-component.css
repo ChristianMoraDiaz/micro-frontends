@@ -1,0 +1,26 @@
+.Container{
+    padding-top: 2%;
+    padding-bottom: 3%;
+  }
+
+.OrderDetails{
+  padding: 15px 15px 15px 0px;
+}
+
+.CardCollapse{
+  background: rgb(32, 38, 45);
+  width: 85%;
+  margin-left: 7.5%;
+  color: white;
+  font-size: 10px;
+  border-radius: 4px;
+  margin-bottom: 5%;
+}
+
+.Card{
+  background: rgb(32, 38, 45);
+  width: 85%;
+  margin-left: 7.5%;
+  margin-top: 3%;
+  color: white;
+}
