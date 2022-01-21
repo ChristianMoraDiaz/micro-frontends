@@ -1,25 +1,23 @@
 <single-spa-router>
-  <!--
-
-    This is the single-spa Layout Definition for your microfrontends.
-    See https://single-spa.js.org/docs/layout-definition/ for more information.
-
-  -->
-
-  <!-- Example layouts you might find helpful:
-
-  <nav>
-    <application name="@org/navbar"></application>
+  <nav class="topnav">
+    <application name="@christian/spa-navbar" loader="topNav" error="topNav"></application>
   </nav>
-  <route path="settings">
-    <application name="@org/settings"></application>
-  </route>
-
-  -->
-
   <main>
-    <route default>
-      <application name="@single-spa/welcome"></application>
-    </route>
+    <div class="main-content mt-16">
+      <route path="faq">
+        <application name="@christian/spa-faq"></application>
+      </route>
+      <route path="sign-in">
+        <application name="@christian/spa-auth"></application>
+      </route>
+      <route path="about-us">
+        <application name="@christian/spa-about-us"></application>
+      </route>
+      <route default>
+        <h1 class="flex flex-row justify-center p-16">
+          <p class="max-w-md">WELCOME TO MY FIRST MICRO FRONT-END PROYECT</p>
+        </h1>
+      </route>
+    </div>
   </main>
 </single-spa-router>
