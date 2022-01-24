@@ -1,0 +1,25 @@
+.Container {
+  padding: 0 5% 5% 5%;
+}
+
+.Title {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.Img {
+  width: 350px;
+  height: 200px;
+  margin: 50px 40px 10px 40px;
+}
+
+.Card-section {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.Definition {
+  text-align: justify;
+  text-justify: inter-word;
+}
