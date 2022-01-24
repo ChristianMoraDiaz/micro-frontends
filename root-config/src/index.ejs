@@ -84,6 +84,31 @@
     body { display: flex; flex-direction: column; }
     * { box-sizing: border-box; }
   </style>
+  <template id="single-spa-layout">
+    <single-spa-router>
+      <nav class="topnav">
+        <application name="@christian/spa-navbar" loader="topNav" error="topNav"></application>
+      </nav>
+      <main>
+        <div class="main-content mt-16">
+          <route path="faq">
+            <application name="@christian/spa-faq"></application>
+          </route>
+          <route path="sign-in">
+            <application name="@christian/spa-auth"></application>
+          </route>
+          <route path="about-us">
+            <application name="@christian/spa-about-us"></application>
+          </route>
+          <route default>
+            <h1 class="flex flex-row justify-center p-16">
+              <p class="max-w-md">WELCOME TO MY FIRST MICRO FRONT-END PROYECT</p>
+            </h1>
+          </route>
+        </div>
+      </main>
+    </single-spa-router>
+  </template>
 </head>
 <body>
   <noscript>
