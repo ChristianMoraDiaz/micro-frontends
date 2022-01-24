@@ -16,7 +16,7 @@ export default function Cards({ Title, Img, Url }: cardProps): JSX.Element {
     <>
       <Card
         sx={{
-          minWidth: "345px",
+          minWidth: "25vw",
           margin: "50px 3% 10px 3%",
           background: "rgba(127, 126, 128, 0.4) ",
           border: "0.3px solid rgba(127, 126, 128, 0.4)"
