@@ -14,6 +14,9 @@ export default function Root(): JSX.Element {
         <Link className="link" to="/faq">
           FAQ
         </Link>
+        <Link className="link" to="/chat">
+          Chat
+        </Link>
         <Link className="link" to="/sign-in">
           Sign In
         </Link>

@@ -62,7 +62,8 @@
         "@christian/spa-faq": "//localhost:9002/christian-spa-faq.js",
         "@christian/spa-auth": "//localhost:9003/christian-spa-auth.js",
         "@christian/spa-about-us": "//localhost:9004/christian-spa-about-us.js",
-        "@christian/spa-home": "//localhost:9005/christian-spa-home.js"
+        "@christian/spa-home": "//localhost:9005/christian-spa-home.js",
+        "@christian/spa-chat": "//localhost:9006/christian-spa-chat.js"
       }
     }
   </script>
@@ -119,6 +120,9 @@
                     </route>
                     <route path="home">
                       <application name="@christian/spa-home"></application>
+                    </route>
+                    <route path="chat">
+                      <application name="@christian/spa-chat"></application>
                     </route>
                     <route default>
                       <h1>404 Not Found</h1>

@@ -27,9 +27,6 @@ const layoutEngine = constructLayoutEngine({
 
 applications.forEach(registerApplication);
 
-console.log("routes", routes)
-console.log("applications", applications)
-console.log("layoutEngine", layoutEngine)
 
 layoutEngine.activate();
 start();
